@@ -1,4 +1,4 @@
-function fuggvenyem(szam) {
+ export function fuggvenyem(szam) {
   let x = 0;
   while (szam != 0) {
     let y = szam % 10; 
@@ -9,4 +9,4 @@ function fuggvenyem(szam) {
   return x
 }
 
-console.log(fuggvenyem(1234))
+console.log(fuggvenyem(5678))
